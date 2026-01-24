@@ -17,7 +17,7 @@ st.set_page_config(
 # ---------------------------------------------------------
 @st.cache_data
 def load_data():
-    df = pd.read_csv("Eyeball_Streamlit_Final.csv")
+    df = pd.read_csv("eyeball_streamlit_final.csv")
     
     # UI İÇİN ÖZEL SÜTUN: "Oyuncu Adı (Sezon) - Takım"
     # Bu sayede listede aynı isimli oyuncular karışmayacak.
@@ -240,3 +240,4 @@ with tab2:
 # ALTLIK
 st.markdown("---")
 st.caption("Eyeball AI Scout v2.0 | Powered by Spherical UMAP & GMM")
+
