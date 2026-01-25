@@ -104,7 +104,7 @@ st.markdown("""
 # ---------------------------------------------------------
 @st.cache_data
 def load_data():
-    df = pd.read_csv("Eyeball_Streamlit_Final.csv")
+    df = pd.read_csv("eyeball_streamlit_final.csv")
     df['Display_Name'] = df['Player'] + " (" + df['Season'].astype(str) + ") - " + df['Squad']
     return df
 
@@ -372,3 +372,4 @@ st.markdown("""
     UMAP & CA
 </div>
 """, unsafe_allow_html=True)
+
