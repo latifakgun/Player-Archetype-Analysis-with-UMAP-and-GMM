@@ -110,7 +110,7 @@ st.markdown("""
 # ---------------------------------------------------------
 @st.cache_data
 def load_data():
-    df = pd.read_csv("Eyeball_Streamlit_Final.csv")
+    df = pd.read_csv("eyeball_streamlit_final.csv")
     df['Display_Name'] = df['Player'] + " (" + df['Season'].astype(str) + ") - " + df['Squad']
     return df
 
@@ -367,3 +367,4 @@ with tab2:
 # FOOTER
 st.markdown("---")
 st.markdown("""<div style="text-align: center; color: #444; font-size: 0.8rem;">EYEBALL INTELLIGENCE © 2026</div>""", unsafe_allow_html=True)
+
