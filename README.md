@@ -1,4 +1,11 @@
 # EYEBALL-SCOUT - PLAYER ARCHETYPE ANALYSIS
+
+### 3D Exploration
+![Eyeball Scout 3D Dashboard](assets/3d-exploration.png)
+
+### Player Comparison
+![Player Comparison Tool](assets/player-comparison.png)
+
 ## **⚽ Eyeball Scout: AI-Driven Football Role Discovery**
 
 Eyeball Scout is a personal data science project built to explore how Unsupervised Machine Learning can redefine traditional football analysis.
